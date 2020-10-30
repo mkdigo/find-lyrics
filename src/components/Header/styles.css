@@ -1,0 +1,17 @@
+header {
+  background: var(--color-green);
+  color: var(--color-white);
+  height: 80px;
+  font-size: 20px;
+}
+
+header div.content {
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 100%;
+}
+
+header div.content img {
+  height: 70%;
+  margin-right: 15px;
+}

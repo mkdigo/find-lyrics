@@ -1,0 +1,5 @@
+footer div.content {
+  justify-content: flex-end;
+  color: var(--color-gray);
+  border-top: solid 1px var(--color-gray);
+}

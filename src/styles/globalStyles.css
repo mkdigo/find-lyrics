@@ -1,0 +1,129 @@
+@import "./variables.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: var(--color-white);
+  font-size: 16px;
+}
+
+input,
+button,
+select,
+textarea {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  outline: none;
+  border: solid 1px var(--color-gray);
+}
+
+input {
+  background: var(--color-white);
+}
+
+input:focus {
+  background: #fff;
+}
+
+button {
+  color: var(--color-white);
+  background: var(--color-green);
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--color-dark-green);
+}
+
+button:active {
+  color: #000;
+  background: var(--color-green);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  max-width: 1180px;
+  padding: 5px 10px;
+}
+
+.load {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+  padding-top: 200px;
+
+  z-index: 10;
+}
+
+.load span {
+  position: relative;
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  opacity: 0.7;
+
+  background: #000;
+
+  animation: load 1s linear infinite;
+}
+
+.load span:after,
+.load span:before {
+  content: "";
+  position: absolute;
+
+  top: -20px;
+  left: 50%;
+
+  width: 15px;
+  height: 15px;
+  background: var(--color-green);
+  border-radius: 50%;
+}
+
+.load span:before {
+  top: unset;
+  width: 10px;
+  height: 10px;
+  bottom: -15px;
+}
+
+@keyframes load {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
