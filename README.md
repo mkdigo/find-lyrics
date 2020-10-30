@@ -6,13 +6,13 @@ O objetivo desse pequeno projeto é o estudo do React js com chamada API do http
 
 yarn install ou npm install
 
-## Obtenha uma credencial o Vagalume
+## Obtenha uma credencial no Vagalume
 
 Entre no site https://www.vagalume.com.br e crie uma conta gratuitamente.
 Clique no menu superior direito e depois em Meus Dados.
 Encontre a opção API e crei sua credencial.
 
-## Adionar a sua credencial no projeto
+## Adicionar a sua credencial no projeto
 
 Na pasta raiz do projeto crie um arquivo chamado .env, e crie uma variavel de ambiente como no exemplo abaixo.
 
