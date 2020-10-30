@@ -1,4 +1,4 @@
-const key = '7c26865789dd258a0c0eed188a26b275'
+const key = process.env.REACT_APP_VAGALUME_API_KEY
 const baseUrl = `https://api.vagalume.com.br/search.php`
 
 const api = {
