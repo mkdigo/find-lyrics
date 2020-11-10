@@ -2,6 +2,8 @@
 
 O objetivo desse pequeno projeto é o estudo do React js com chamada API do https://www.vagalume.com.br
 
+![alt text](https://github.com/mkdigo/find-lyrics/blob/master/home.png?raw=true)
+
 ## Instale os pacotes.
 
 yarn install ou npm install
