@@ -2,7 +2,7 @@
 
 O objetivo desse pequeno projeto é o estudo do React js com chamada API do https://www.vagalume.com.br
 
-![alt text](https://github.com/mkdigo/find-lyrics/blob/master/home.png?raw=true)
+![home image](https://raw.githubusercontent.com/mkdigo/find-lyrics/master/home.png)
 
 ## Instale os pacotes.
 
@@ -18,7 +18,7 @@ Encontre a opção API e crei sua credencial.
 
 Na pasta raiz do projeto crie um arquivo chamado .env, e crie uma variavel de ambiente como no exemplo abaixo.
 
-REACT_APP_VAGALUME_API_KEY = 'yourApiKey'
+VITE_VAGALUME_API_KEY = 'yourApiKey'
 
 ## Tudo pronto para rodar!
 
